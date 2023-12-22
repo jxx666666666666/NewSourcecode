@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "category": "Helvetica",
+      "data": "103",
+      "color": "#C0E2FE",
+      "proportion": "29%"
+    },
+    {
+      "category": "15-64 Years Old",
+      "data": "225",
+      "color": "#FEAF38",
+      "proportion": "35%"
+    },
+    {
+      "category": "Over 65 Years Old",
+      "data": "361",
+      "color": "#01CD5E",
+      "proportion": "42%"
+    }
+  ]
+}

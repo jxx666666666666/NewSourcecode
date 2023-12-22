@@ -1,0 +1,12 @@
+{
+  "Today": {
+    "name": "Average Congestion Duration",
+    "value": 12,
+    "unit": "min"
+  },
+  "Month": {
+    "name": "Average Congestion Duration",
+    "value": 24,
+    "unit": "min"
+  }
+}

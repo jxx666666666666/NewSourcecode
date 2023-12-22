@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "name": "Total Population",
+      "value": 800368,
+      "data": [
+        {
+          "name": "YoY",
+          "value": 2.6
+        },
+        {
+          "name": "MoY",
+          "value": -1.2
+        }
+      ]
+    },
+    {
+      "name": "Resident Population",
+      "value": 1020060,
+      "data": [
+        {
+          "name": "YoY",
+          "value": 2.6
+        },
+        {
+          "name": "MoY",
+          "value": -1.2
+        }
+      ]
+    }
+  ]
+}

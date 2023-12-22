@@ -1,0 +1,46 @@
+{
+  "Today": [
+    {
+      "dimension": "area 1",
+      "measure": 55
+    },
+    {
+      "dimension": "area 2",
+      "measure": 80
+    },
+    {
+      "dimension": "area 3",
+      "measure": 73
+    },
+    {
+      "dimension": "area 4",
+      "measure": 50
+    },
+    {
+      "dimension": "area 5",
+      "measure": 73
+    }
+  ],
+  "Month": [
+    {
+      "dimension": "area 1",
+      "measure": 55
+    },
+    {
+      "dimension": "area 2",
+      "measure": 90
+    },
+    {
+      "dimension": "area 3",
+      "measure": 73
+    },
+    {
+      "dimension": "area 4",
+      "measure": 50
+    },
+    {
+      "dimension": "area 5",
+      "measure": 73
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "Day": [
+    {
+      "measure": 42,
+      "dimension": "Power"
+    },
+    {
+      "measure": 35,
+      "dimension": "Cooling"
+    },
+    {
+      "measure": 29,
+      "dimension": "ENV"
+    },
+    {
+      "measure": 17,
+      "dimension": "Security"
+    },
+    {
+      "measure": 17,
+      "dimension": "Others"
+    }
+  ],
+  "Week": [
+    {
+      "measure": 45,
+      "dimension": "Power"
+    },
+    {
+      "measure": 36,
+      "dimension": "Cooling"
+    },
+    {
+      "measure": 29,
+      "dimension": "ENV"
+    },
+    {
+      "measure": 18,
+      "dimension": "Security"
+    },
+    {
+      "measure": 17,
+      "dimension": "Others"
+    }
+  ],
+  "Month": [
+    {
+      "measure": 52,
+      "dimension": "Power"
+    },
+    {
+      "measure": 45,
+      "dimension": "Cooling"
+    },
+    {
+      "measure": 29,
+      "dimension": "ENV"
+    },
+    {
+      "measure": 17,
+      "dimension": "Security"
+    },
+    {
+      "measure": 27,
+      "dimension": "Others"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+    "RECORDS": [{
+            "lat": -1.6924982018077734,
+            "lon": 37.186091615295695,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.6930664085011005,
+            "lon": 37.18438675941689,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.6930739916211355,
+            "lon": 37.185008846808486,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.6930588253810401,
+            "lon": 37.18591163216945,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.6930588253810401,
+            "lon": 37.18356742480356,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.6918587704823387,
+            "lon": 37.18356147847132,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.6904641742742565,
+            "lon": 37.18413152421023,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.6897327412771275,
+            "lon": 37.184769253127094,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.68977665400082,
+            "lon": 7.18454621462861,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.6891348525557175,
+            "lon": 37.18530657314615,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.6891626641307234,
+            "lon": 37.18632139512854,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        }
+    ]
+}

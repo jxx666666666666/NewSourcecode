@@ -1,0 +1,102 @@
+{
+  "This Year": [
+    {
+      "name": "01",
+      "value": 210
+    },
+    {
+      "name": "02",
+      "value": 260
+    },
+    {
+      "name": "03",
+      "value": 270
+    },
+    {
+      "name": "04",
+      "value": 210
+    },
+    {
+      "name": "05",
+      "value": 200
+    },
+    {
+      "name": "06",
+      "value": 220
+    },
+    {
+      "name": "07",
+      "value": 280
+    },
+    {
+      "name": "08",
+      "value": 300
+    },
+    {
+      "name": "09",
+      "value": 280
+    },
+    {
+      "name": "10",
+      "value": 280
+    },
+    {
+      "name": "11",
+      "value": 270
+    },
+    {
+      "name": "12",
+      "value": 280
+    }
+  ],
+  "Last 5 Years": [
+    {
+      "name": "01",
+      "value": 210
+    },
+    {
+      "name": "02",
+      "value": 260
+    },
+    {
+      "name": "03",
+      "value": 270
+    },
+    {
+      "name": "04",
+      "value": 210
+    },
+    {
+      "name": "05",
+      "value": 200
+    },
+    {
+      "name": "06",
+      "value": 220
+    },
+    {
+      "name": "07",
+      "value": 280
+    },
+    {
+      "name": "08",
+      "value": 310
+    },
+    {
+      "name": "09",
+      "value": 280
+    },
+    {
+      "name": "10",
+      "value": 280
+    },
+    {
+      "name": "11",
+      "value": 270
+    },
+    {
+      "name": "12",
+      "value": 280
+    }
+  ]
+}

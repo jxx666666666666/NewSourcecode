@@ -1,0 +1,62 @@
+{
+  "Month": [
+    {
+      "name": "area1",
+      "value": "35"
+    },
+    {
+      "name": "area2",
+      "value": "36"
+    },
+    {
+      "name": "area3",
+      "value": "35"
+    },
+    {
+      "name": "area4",
+      "value": "35"
+    },
+    {
+      "name": "area5",
+      "value": "35"
+    },
+    {
+      "name": "area6",
+      "value": "36"
+    },
+    {
+      "name": "area7",
+      "value": "35"
+    }
+  ],
+  "Year": [
+    {
+      "name": "area1",
+      "value": "65"
+    },
+    {
+      "name": "area2",
+      "value": "66"
+    },
+    {
+      "name": "area3",
+      "value": "65"
+    },
+    {
+      "name": "area4",
+      "value": "65"
+    },
+    {
+      "name": "area5",
+      "value": "65"
+    },
+    {
+      "name": "area6",
+      "value": "66"
+    },
+    {
+      "name": "area7",
+      "value": "65"
+    }
+  ]
+}

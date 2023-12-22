@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css" />
+    <script src="../js/webSocket.js"></script>
+    <script src="../js/axios.js"></script>
+</head>
+
+<body>
+    <div class="DengGanBox">
+        <div class="Top_Box">
+            <span></span>
+            <span>Smart Lamp Pole</span>
+            <span></span>
+        </div>
+    </div>
+    <script>
+        axios.get('../../config.json').then((res) => {
+            // let WSURL = res.data.WSURL
+            // // Obtain data through URL
+            // let href = window.document.location.href;
+            // let data = href.split("?");
+            // let info = JSON.parse(decodeURI(data[1]));
+
+            // Close click event
+            // document.querySelector('.close').onclick = function () {
+            //     Ws.OpenServer(
+            //         WSURL, {
+            //         Key: 'closePanel',
+            //         Value: 
+            //         JSON.stringify({
+            //             // layerType: 'Histogram',
+            //             scatterType:info.scatterType
+            //         })
+            //     },
+            //         function () { },
+            //     )
+            // }
+        })
+    </script>
+
+    <style>
+        .DengGanBox {
+            width: 470px;
+            height: 255px;
+            background: url('../img/biaopaiBJ.png') no-repeat;
+            background-size: 100% 100%;
+            overflow: hidden;
+        }
+        .DengGanBox .Top_Box span:nth-child(1){
+        width: 35px;
+        height: 40px;
+        background: url('../img/Icon1.png') no-repeat;
+        }
+    </style>
+
+</html>

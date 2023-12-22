@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "name": "Number Of Schools",
+      "value": 62
+    },
+    {
+      "name": "Number Of Degrees",
+      "value": 203
+    },
+    {
+      "name": "Number Of Teachers",
+      "value": 321
+    },
+    {
+      "name": "Number Of Students",
+      "value": 1023
+    }
+  ]
+}

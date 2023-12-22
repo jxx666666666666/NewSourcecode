@@ -1,0 +1,23 @@
+﻿{
+  "url": "http://192.168.2.32:9090",
+  "token": "PcnI4cw9",
+  "width": 7680,
+  "height": 1440,
+  "panelURL": "http://127.0.0.1:3066",
+  "WSURL": "ws://127.0.0.1:9998",
+  "debugger": {
+    "PS": true,
+    "I&O": true,
+    "TO": true,
+    "smartPole": true,
+    "CP": true,
+    "PLS": true,
+    "LC": true,
+    "PDC": true
+  },
+  "IVSUserName": "admin",
+  "IVSPassWord": "Konza@IVS12#$",
+  "NetEcoUserName": "Konzaioc",
+  "NetEcoPassWord": "Konza@123",
+  "notes": "panelURL(Panel Engineering Address)，UEURL(This project address),WSURL(Web service address),url(Ue address),token(Ue scenario toben),urlConfigs(Automatically assign rendering servers)"
+}

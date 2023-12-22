@@ -1,0 +1,123 @@
+{
+    "RECORDS": [{
+            "lat":-1.69024122,
+            "lon":37.18007736,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.68988861,
+            "lon": 37.17969388,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.69032339,
+            "lon": 37.17930592,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.69067014,
+            "lon": 37.17973319,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.6939341,
+            "lon": 37.16681381,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.69403681,
+            "lon": 37.16691525,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.69115415,
+            "lon": 37.17674207,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.69106126,
+            "lon": 37.1764365,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.68910811,
+            "lon": 37.18800026,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.68891011,
+            "lon": 37.18819445,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.68790415,
+            "lon": 37.19489338,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        },
+        {
+            "lat": -1.68766956,
+            "lon": 37.19486371,
+            "alt": "0",
+            "DeviceType": "xxxxxxxxxxx",
+            "DeviceModel": "xxxxxxxxxxx",
+            "DeviceFaultType": "xxxxxxxxxxx",
+            "FaultOccurrenceTime": "xxxxxxxxxxx",
+            "AndFaultCause": "xxxxxxxxxxx"
+        }
+    ]
+}

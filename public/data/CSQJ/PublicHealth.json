@@ -1,0 +1,30 @@
+{
+  "Month": [
+    {
+      "legend": "Major Food Poisoning",
+      "measure": 27
+    },
+    {
+      "legend": "Occupational Poisoning",
+      "measure": 36
+    },
+    {
+      "legend": "Infectious Disease Control",
+      "measure": 42
+    }
+  ],
+  "Year": [
+    {
+      "legend": "Major Food Poisoning",
+      "measure": 27
+    },
+    {
+      "legend": "Occupational Poisoning",
+      "measure": 46
+    },
+    {
+      "legend": "Infectious Disease Control",
+      "measure": 48
+    }
+  ]
+}

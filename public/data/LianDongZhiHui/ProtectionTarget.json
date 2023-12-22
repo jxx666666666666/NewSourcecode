@@ -1,0 +1,45 @@
+{
+    "RECORDS": [
+      {
+        "lat": "-1.6931642042",
+        "lon": "37.1880977505",
+        "alt": "0",
+        "Surveillance":"xxxxxxxxxxxxxxxx",
+        "CameraID":"xxxxxxxxxxxxxx",
+        "AndOnlineStatus":"xxxxxxxxxxxx"
+      },
+      {
+        "lat": "-1.6907368213",
+        "lon": "37.1874228161",
+        "alt": "0",
+        "Surveillance":"xxxxxxxxxxxxxxxx",
+        "CameraID":"xxxxxxxxxxxxxx",
+        "AndOnlineStatus":"xxxxxxxxxxxx"
+      },
+      {
+        "lat": "-1.6892751798",
+        "lon": "37.1855672462",
+        "alt": "0",
+        "Surveillance":"xxxxxxxxxxxxxxxx",
+        "CameraID":"xxxxxxxxxxxxxx",
+        "AndOnlineStatus":"xxxxxxxxxxxx"
+      },
+      {
+        "lat": "-1.6922926596",
+        "lon": "37.1851500173",
+        "alt": "0",
+        "Surveillance":"xxxxxxxxxxxxxxxx",
+        "CameraID":"xxxxxxxxxxxxxx",
+        "AndOnlineStatus":"xxxxxxxxxxxx"
+      },
+      {
+        "lat": "-1.6885388707",
+        "lon": "37.1849772587",
+        "alt": "0",
+        "Surveillance":"xxxxxxxxxxxxxxxx",
+        "CameraID":"xxxxxxxxxxxxxx",
+        "AndOnlineStatus":"xxxxxxxxxxxx"
+      }
+    ]
+  }
+  

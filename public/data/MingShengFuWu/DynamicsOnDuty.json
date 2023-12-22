@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "name": "Number Of MedicalInstitutions",
+      "value": 23
+    },
+    {
+      "name": "Number Of Medical Beds Approved",
+      "value": 298
+    },
+    {
+      "name": "Number Of Medical Personnel",
+      "value": 507
+    },
+    {
+      "name": "Number Of Patients",
+      "value": 941
+    }
+  ]
+}

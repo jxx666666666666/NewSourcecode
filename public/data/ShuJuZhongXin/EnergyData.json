@@ -1,0 +1,22 @@
+{
+  "title": "Total Energy Consumption",
+  "value": "1.65M",
+  "unit": "kwh",
+  "name": "Hourly PUE",
+  "timer": "2023-11-28",
+  "val": "1.39",
+  "dataList": [
+    {
+      "name": "IT (Kwh)",
+      "value": "95.34"
+    },
+    {
+      "name": "Cooling (Kwh)",
+      "value": "37.50"
+    },
+    {
+      "name": "Total (Kwh)",
+      "value": "132.84"
+    }
+  ]
+}

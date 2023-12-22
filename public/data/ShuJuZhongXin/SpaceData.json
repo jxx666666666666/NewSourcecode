@@ -1,0 +1,44 @@
+{
+  "ybpData": {
+    "name": "Usage Rate",
+    "value": 10.47
+  },
+  "kwData": [
+    {
+      "name": "Used(U)",
+      "value": "643"
+    },
+    {
+      "name": "Total(U)",
+      "value": "6140"
+    }
+  ],
+  "textList": [
+    {
+      "name": "Low Load(<60%)"
+    },
+    {
+      "name": "Medium Load(>=60%)"
+    },
+    {
+      "name": "High Load(>=80%)"
+    }
+  ],
+  "chartData": [
+    {
+      "name": "First Floor",
+      "value": 169,
+      "item": 676
+    },
+    {
+      "name": "XXXXX",
+      "value": 238,
+      "item": 557
+    },
+    {
+      "name": "Ground Floor",
+      "value": 60,
+      "item": 487
+    }
+  ]
+}

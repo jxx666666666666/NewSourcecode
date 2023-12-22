@@ -1,0 +1,7 @@
+{
+  "data": [
+    { "legend": "0-15 Years Old", "measure": 263, "rate": "26" },
+    { "legend": "15-64 Years Old", "measure": 108, "rate": "30" },
+    { "legend": "Over 65 Years Old", "measure": 355, "rate": "50" }
+  ]
+}

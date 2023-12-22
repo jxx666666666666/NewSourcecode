@@ -1,0 +1,42 @@
+{
+  "leftData": 20,
+  "rightData": 78,
+  "data1": [
+    {
+      "name": "Cold Aisle",
+      "value": "22.5",
+      "val": "48.8"
+    },
+
+    {
+      "name": "AVG",
+      "value": "22.5",
+      "val": "48.8"
+    },
+
+    {
+      "name": "MAX",
+      "value": "22.5",
+      "val": "48.8"
+    }
+  ],
+  "data2": [
+    {
+      "name": "Hot Aisle",
+      "value": "22.5",
+      "val": "48.8"
+    },
+
+    {
+      "name": "AVG",
+      "value": "22.5",
+      "val": "48.8"
+    },
+
+    {
+      "name": "MAX",
+      "value": "22.5",
+      "val": "48.8"
+    }
+  ]
+}

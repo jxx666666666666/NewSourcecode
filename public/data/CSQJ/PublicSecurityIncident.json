@@ -1,0 +1,38 @@
+{
+  "Month": [
+    {
+      "name": "Total Number Of Events",
+      "value": 1032
+    },
+    {
+      "name": "Total Number Of Public Health",
+      "value": 206
+    },
+    {
+      "name": "Total Number Of Construction Site Safety Incidents",
+      "value": 193
+    },
+    {
+      "name": "Total Number Of Public Security Incidents",
+      "value": 67
+    }
+  ],
+  "Year": [
+    {
+      "name": "Total Number Of Events",
+      "value": 1032
+    },
+    {
+      "name": "Total Number Of Public Health",
+      "value": 216
+    },
+    {
+      "name": "Total Number Of Construction Site Safety Incidents",
+      "value": 193
+    },
+    {
+      "name": "Total Number Of Public Security Incidents",
+      "value": 67
+    }
+  ]
+}

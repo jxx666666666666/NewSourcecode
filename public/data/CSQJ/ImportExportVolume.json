@@ -1,0 +1,76 @@
+{
+  "This Year": [
+    {
+      "name": "January",
+      "value": 270,
+      "item": 245
+    },
+    {
+      "name": "February",
+      "value": 210,
+      "item": 245
+    },
+    {
+      "name": "March",
+      "value": 180,
+      "item": 245
+    },
+    {
+      "name": "April",
+      "value": 180,
+      "item": 245
+    },
+    {
+      "name": "May",
+      "value": 250,
+      "item": 245
+    },
+    {
+      "name": "June",
+      "value": 250,
+      "item": 245
+    },
+    {
+      "name": "July",
+      "value": 210,
+      "item": 180
+    }
+  ],
+  "Last 5 Years": [
+    {
+      "name": "January",
+      "value": 280,
+      "item": 245
+    },
+    {
+      "name": "February",
+      "value": 210,
+      "item": 245
+    },
+    {
+      "name": "March",
+      "value": 180,
+      "item": 245
+    },
+    {
+      "name": "April",
+      "value": 180,
+      "item": 245
+    },
+    {
+      "name": "May",
+      "value": 250,
+      "item": 245
+    },
+    {
+      "name": "June",
+      "value": 250,
+      "item": 245
+    },
+    {
+      "name": "July",
+      "value": 210,
+      "item": 180
+    }
+  ]
+}

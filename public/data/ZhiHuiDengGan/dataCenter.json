@@ -1,0 +1,34 @@
+{
+  "RECORDS": [
+    {
+      "lat": "-1.69133022215",
+      "lon": "37.18557580333",
+      "alt": "0",
+      "DeviceType": "xxxxxxxxxxx",
+      "DeviceModel": "xxxxxxxxxxx",
+      "DeviceFaultType": "xxxxxxxxxxx",
+      "FaultOccurrenceTime": "xxxxxxxxxxx",
+      "AndFaultCause": "xxxxxxxxxxx"
+    },
+    {
+      "lat": "-1.69099741293",
+      "lon": "37.1876778639",
+      "alt": "0",
+      "DeviceType": "xxxxxxxxxxx",
+      "DeviceModel": "xxxxxxxxxxx",
+      "DeviceFaultType": "xxxxxxxxxxx",
+      "FaultOccurrenceTime": "xxxxxxxxxxx",
+      "AndFaultCause": "xxxxxxxxxxx"
+    },
+    {
+      "lat": "-1.68867068331",
+      "lon": "37.18469680884",
+      "alt": "0",
+      "DeviceType": "xxxxxxxxxxx",
+      "DeviceModel": "xxxxxxxxxxx",
+      "DeviceFaultType": "xxxxxxxxxxx",
+      "FaultOccurrenceTime": "xxxxxxxxxxx",
+      "AndFaultCause": "xxxxxxxxxxx"
+    }
+  ]
+}

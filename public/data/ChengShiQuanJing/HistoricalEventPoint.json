@@ -1,0 +1,49 @@
+{
+  "RECORDS": [
+    {
+      "lat": "-1.6909898598",
+      "lon": "37.184936",
+      "alt": "4.9899990845",
+      "Surveillance": "xxxxxxxxxxxxxxxx",
+      "CameraName": "WingA_Path",
+      "CameraID": "00402032009963560101#f4b00b238376482bb719fc54b49add42",
+      "AndOnlineStatus": "xxxxxxxxxxxx"
+    },
+    {
+      "lat": "-1.6924209139",
+      "lon": "37.1852956307",
+      "alt": "3.7152392578",
+      "Surveillance": "xxxxxxxxxxxxxxxx",
+      "CameraName": "WingA_ServerRoom",
+      "CameraID": "00402032000906370101#f4b00b238376482bb719fc54b49add42",
+      "AndOnlineStatus": "xxxxxxxxxxxx"
+    },
+    {
+      "lat": "-1.6883903314",
+      "lon": "37.1843677903",
+      "alt": "4.9899990845",
+      "Surveillance": "xxxxxxxxxxxxxxxx",
+      "CameraName": "Grd Fire Assembly Point 1",
+      "CameraID": "00402032001999480101#f4b00b238376482bb719fc54b49add42",
+      "AndOnlineStatus": "xxxxxxxxxxxx"
+    },
+    {
+      "lat": "-1.6872587937",
+      "lon": "37.1840993415",
+      "alt": "4.9899990845",
+      "Surveillance": "xxxxxxxxxxxxxxxx",
+      "CameraName": "WingB_OpenSpace",
+      "CameraID": "00402032002037570101#f4b00b238376482bb719fc54b49add42",
+      "AndOnlineStatus": "xxxxxxxxxxxx"
+    },
+    {
+      "lat": "-1.6872885992",
+      "lon": "37.1851601458",
+      "alt": "4.9899990845",
+      "Surveillance": "xxxxxxxxxxxxxxxx",
+      "CameraName": "WingA_Boardroom",
+      "CameraID": "00402032009720040101#f4b00b238376482bb719fc54b49add42",
+      "AndOnlineStatus": "xxxxxxxxxxxx"
+    }
+  ]
+}

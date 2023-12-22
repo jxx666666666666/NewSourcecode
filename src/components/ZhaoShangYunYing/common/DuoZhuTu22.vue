@@ -1,0 +1,459 @@
+﻿<template>
+  <div class="chartBox">
+    <div
+      class="myChart"
+      ref="myChart"
+      :style="{ width: width, height: height }"
+    ></div>
+    <ul class="legth" :style="{ top: legTop, left: legLeft }" v-if="legIsShow">
+      <li v-for="(item, i) in legthWZ" :key="i">
+        <h3
+          :style="{
+            backgroundColor: legthColor[i],
+            width: stylebrick.width,
+            height: stylebrick.height,
+            marginTop: stylebrick.marginTop
+          }"
+        ></h3>
+        <span :style="{fontSize:legthFontSize + 'px'}">{{ item }}</span>
+      </li>
+    </ul>
+  </div>
+</template>
+<script>
+export default {
+  name: 'pieGeRenNanDing',
+  props: {
+    stylebrick: {
+      type: Object,
+      default: () => {
+        return {
+          width: '4px',
+          height: '20px',
+          marginTop: '3 px'
+        };
+      }
+    },
+    rowData: {
+      type: Array,
+      default: () => {
+        return [
+          {
+          name: "2017",
+          value: "80",
+          item: "90",
+        },
+        {
+          name: "2018",
+          value: "70",
+          item: "80",
+        },
+        {
+          name: "2019",
+          value: "60",
+          item: "75",
+        },
+        {
+          name: "2020",
+          value: "80",
+          item: "90",
+        },
+        {
+          name: "2021",
+          value: "70",
+          item: "80",
+        },
+        ];
+      }
+    },
+    barColor: {
+      type: Array,
+      default: () => {
+        return [ '#00BFFF', '#72FEFF','#47E094', '#47E094'];
+      }
+    },
+    legthColor: {
+      type: Array,
+      default: () => {
+        return ['#05CC82', '#00BFFF'];
+      }
+    },
+    legthWZ: {
+      type: Array,
+      default: () => {
+        return ['Billions', 'Percentage'];
+      }
+    },
+    legthFontSize: {
+      type: String,
+      default:'16'
+    },
+    unit: {
+      type: String,
+      default: () => {
+        return '%';
+      }
+    },
+    barWidth: {
+      type: String,
+      default: () => {
+        return '22';
+      }
+    },
+    width: {
+      type: String,
+      default: () => {
+        return '850px';
+      }
+    },
+    height: {
+      type: String,
+      default: () => {
+        return '300px';
+      }
+    },
+    legTop: {
+      type: String,
+      default: () => {
+        return '10px';
+      }
+    },
+    legLeft: {
+      type: String,
+      default: () => {
+        return '  500px';
+      }
+    },
+    legIsShow: {
+      type: Boolean,
+      default: () => {
+        return true;
+      }
+    },
+ 
+    fontStyle: {
+      type: Object,
+      default: () => {
+        return {
+          Xfont: {
+            color: '#BFEBFF',
+            fontSize: 14,
+            fontFamily: 'PingFang'
+          },
+          Yfont: {
+            color: '#BFEBFF',
+            fontSize: 14,
+            fontFamily: 'Helvetica'
+          },
+          nameTextStyle: {
+            color: '#BFEBFF',
+            fontSize: 16,
+            padding: 2,
+            fontFamily: 'PingFang'
+          }
+        };
+      }
+    },
+    gridData:{
+      type:Object,
+      default:()=>{
+        return {
+          top:'20%',
+          left: '2%',
+          right: '0%',
+          bottom: '2%',
+          containLabel: true
+        }
+      }
+    },
+    // Whether to display the right Y-axis.
+    showY:{
+      type:Boolean,
+      default:false
+    },
+    rotate: {
+      type: Number,
+      default() {
+        return 0;
+      }
+    },
+    max:{
+      type:String,
+      default:'100'
+    }
+  },
+  data() {
+    return {
+      Xdata: [],
+      Ydata: [],
+      valTwo: [30, 40, 50, 60],
+      valThree: [],
+      setTime: null,
+      chartInst: null
+    };
+  },
+  mounted() {
+    // this.getData();
+    if (this.rowData && this.rowData.length > 0) {
+      this.rowData.forEach(item => {
+        this.Xdata.push(item.name);
+        this.Ydata.push(item.value);
+        this.valTwo.push(item.item);
+        // this.valThree.push(item.val);
+      });
+    }
+    this.drawWidth();
+    this.tooltipShuffling();
+  },
+  methods: {
+    drawWidth() {
+      // Initialize ECharts instance based on a prepared DOM.
+      this.chartInst = this.$echarts.init(this.$refs.myChart);
+      this.chartInst.setOption({
+        color: '#00BFFF',
+        tooltip: {
+          trigger: 'axis',
+          axisPointer: {
+            type: 'cross',
+            label: {
+              backgroundColor: '#6a7985'
+            }
+          }
+        },
+         grid:this.gridData,
+        // grid: {
+        //   top:'20%',
+        //   left: '3%',
+        //   right: '5%',
+        //   bottom: '0%',
+        //   containLabel: true
+        // },
+        xAxis: [
+          {
+            type: 'category',
+            data: this.Xdata,
+            axisTick: {
+              alignWithLabel: true
+            },
+            axisLabel: {
+              //Configuration of the x-axis labels.
+              textStyle: this.fontStyle.Xfont,
+              rotate: this.rotate
+            },
+            axisLine: {
+              lineStyle: {
+                color: '#9FAFB5',
+                width: 1.2 //This is added for emphasis.
+              }
+            }
+          }
+        ],
+        
+        yAxis: [
+          {
+            // name: `unit:${this.unit}`,
+            position: 'left',
+            type: 'value',
+            show:true,
+            max:this.max,
+            nameTextStyle: this.fontStyle.nameTextStyle,
+            axisLabel: {
+              //Configuration of the y-axis labels.
+              textStyle: this.fontStyle.Yfont
+            },
+            splitNumber: 5,
+            // Set the thickness of the y-axis line.
+            splitLine: {
+              show: true,
+              lineStyle: {
+                color: ['#0A223E'],
+                width: 2,
+                type: 'solid'
+              }
+            },
+            axisLine: {
+              lineStyle: {
+                color: '#9FAFB5',
+                width: 2 //This is added for emphasis.
+              }
+            },
+            splitArea: {
+              show: true,
+              areaStyle: {
+                color: ['rgba(14,29,52,0.5)', 'rgba(191,235,255,0.12)']
+              }
+            }
+          },
+           {
+            name: 'unit/t',
+            position: 'right',
+            type: 'value',
+            show:this.showY,
+
+            max:this.max,
+            nameTextStyle: this.fontStyle.nameTextStyle,
+            axisLabel: {
+              //Configuration of the y-axis labels.
+              textStyle: this.fontStyle.Yfont
+            },
+            splitNumber: 5,
+            // Set the thickness of the y-axis line.
+            splitLine: {
+              show: true,
+              lineStyle: {
+                color: ['#0A223E'],
+                width: 2,
+                type: 'solid'
+              }
+            },
+            axisLine: {
+              lineStyle: {
+                color: '#9FAFB5',
+                width: 2 //This is added for emphasis.
+              }
+            },
+            splitArea: {
+              show: true,
+              areaStyle: {
+                color: ['rgba(14,29,52,0.5)', 'rgba(191,235,255,0.12)']
+              }
+            }
+          }
+        ],
+        series: [
+          {
+            name: this.legthWZ[0],
+            type: 'bar',
+            barWidth: this.barWidth,
+            data: this.Ydata,
+            yAxisIndex:0,
+
+            itemStyle: {
+              normal: {
+                color: new this.$echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                  {
+                    offset: 0,
+                    color: this.barColor[0]
+                  },
+                  {
+                    offset: 1,
+                    color: this.barColor[1]
+                  }
+                ]),
+                 //Here, set the rounded corners of the bar chart [top-left, top-right, bottom-right, bottom-left].
+                barBorderRadius: [10, 10, 10, 10]
+              }
+            }
+          },
+          {
+            name: this.legthWZ[0],
+            type: 'line',
+            barWidth: this.barWidth,
+            data: this.valTwo,
+            yAxisIndex:1,
+            itemStyle: {
+              normal: {
+                color: new this.$echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                  {
+                    offset: 0,
+                    color: this.barColor[2]
+                  },
+                  {
+                    offset: 1,
+                    color: this.barColor[3]
+                  }
+                ]),
+                // Rounded corner attribute.
+                barBorderRadius: [10, 10, 0, 0]
+              }
+            }
+          }
+        ]
+      });
+      //Set the default selected highlighted section.
+      this.chartInst.dispatchAction({
+        type: 'downplay',
+        seriesIndex: 0,
+        dataIndex: 0
+      }); //Mouse enters.
+    },
+    tooltipShuffling() {
+      clearInterval(this.setTime);
+      var currentIndex = -1;
+      this.setTime = setInterval(() => {
+        var dataLen = this.Ydata.length;
+        // Cancel the previously highlighted graphic.
+        this.chartInst.dispatchAction({
+          type: 'downplay',
+          seriesIndex: 0, //Represent the cyclic display of data at which index in series.
+          dataIndex: currentIndex
+        });
+        currentIndex = (currentIndex + 1) % dataLen; //+1Represent jumping one at a time.
+        this.chartInst.dispatchAction({
+          type: 'showTip',
+          seriesIndex: 0,
+          dataIndex: currentIndex
+        });
+        // show tooltip
+        this.chartInst.dispatchAction({
+          type: 'showTip',
+          seriesIndex: 0,
+          dataIndex: currentIndex
+        });
+      }, 3000);
+    }
+  },
+  beforeDestroy() {
+    clearInterval(this.setTime);
+    this.setTime = null;
+    this.chartInst.dispose();
+  },
+  watch: {
+    rowData: {
+      handler() {
+        this.Xdata = [];
+        this.Ydata = [];
+        this.valTwo = [];
+        this.valThree = [];
+        this.rowData.forEach(item => {
+          this.Xdata.push(item.name);
+          this.Ydata.push(item.value);
+          this.valTwo.push(item.item);
+          this.valThree.push(item.val);
+        });
+        this.tooltipShuffling();
+        this.drawWidth();
+      }
+    }
+  }
+};
+</script>
+
+<style lang="less" scoped>
+.chartBox {
+  position: relative;
+  .legth {
+    position: absolute;
+    left: 321px;
+    top: 10px;
+    li {
+      float: left;
+      // width: 200px;
+      margin-right: 20px;
+      height: 20px;
+      h3 {
+        float: left;
+        width: 4px;
+        height: 20px;
+        background-color: red;
+      }
+      span {
+        margin-left: 7px;
+        // font-size: 22px;
+        font-family: 'PingFang';
+        color: #bfebff;
+      }
+    }
+  }
+}
+</style>

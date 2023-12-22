@@ -1,0 +1,55 @@
+{
+    "RECORDS": [
+      {
+        "lat": "-1.691859",
+        "lon": "37.184413",
+        "alt": "0",
+        "Temperature":"xxxxxxxxxxx",
+        "Humidity":"xxxxxxxxxxx",
+        "Noise":"xxxxxxxxxxx",
+        "Pm":"xxxxxxxxxxx",
+        "LampPoleNumber":"xxxxxxxxxxx"
+      },
+      {
+        "lat": "-1.690592",
+        "lon": "37.183569",
+        "alt": "0",
+        "Temperature":"xxxxxxxxxxx",
+        "Humidity":"xxxxxxxxxxx",
+        "Noise":"xxxxxxxxxxx",
+        "Pm":"xxxxxxxxxxx",
+        "LampPoleNumber":"xxxxxxxxxxx"
+      },
+      {
+        "lat": "-1.691862",
+        "lon": "37.186930",
+        "alt": "0",
+        "Temperature":"xxxxxxxxxxx",
+        "Humidity":"xxxxxxxxxxx",
+        "Noise":"xxxxxxxxxxx",
+        "Pm":"xxxxxxxxxxx",
+        "LampPoleNumber":"xxxxxxxxxxx"
+      },
+      {
+        "lat": "-1.689754",
+        "lon": " 37.184529",
+        "alt": "0",
+        "Temperature":"xxxxxxxxxxx",
+        "Humidity":"xxxxxxxxxxx",
+        "Noise":"xxxxxxxxxxx",
+        "Pm":"xxxxxxxxxxx",
+        "LampPoleNumber":"xxxxxxxxxxx"
+      },
+      {
+        "lat": "-1.693842",
+        "lon": "37.178187",
+        "alt": "0",
+        "Temperature":"xxxxxxxxxxx",
+        "Humidity":"xxxxxxxxxxx",
+        "Noise":"xxxxxxxxxxx",
+        "Pm":"xxxxxxxxxxx",
+        "LampPoleNumber":"xxxxxxxxxxx"
+      }
+    ]
+  }
+  

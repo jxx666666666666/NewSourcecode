@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Rack Used",
+    "value": 298,
+    "val": 148,
+    "rate": "52%"
+  },
+  {
+    "name": "U Space Used (U)",
+    "value": 643,
+    "val": 6140,
+    "rate": "10.47%"
+  },
+  {
+    "name": "Power Capacity Used (Rated,kW)",
+    "value": 146.35,
+    "val": 920,
+    "rate": "15.91%"
+  },
+  {
+    "name": "Power Capacity Used (Measured,kW)",
+    "value": 76.1,
+    "val": 834,
+    "rate": "9.12%"
+  },
+  {
+    "name": "Cooling Capacity Used (kw)",
+    "value": 146.35,
+    "val": 1480,
+    "rate": "9.89%"
+  },
+  {
+    "name": "Network Ports Used",
+    "value": 0,
+    "val": 85,
+    "rate": "15.00%"
+  }
+]

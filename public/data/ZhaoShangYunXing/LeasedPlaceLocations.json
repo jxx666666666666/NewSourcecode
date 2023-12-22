@@ -1,0 +1,48 @@
+{
+    "RECORDS": [{
+            "lat": -1.6849368711044361,
+            "lon": 37.183533465322895,
+            "alt": "0",
+            "Current": "xxxxxxxxxx",
+            "Screenshot": "xxxxxxxxxx",
+            "Online": "xxxxxxxxxx",
+            "Switch": "xxxxxxxxxx"
+        },
+        {
+            "lat": -1.685843173704286,
+            "lon": 37.183556019919926,
+            "alt": "0",
+            "Current": "xxxxxxxxxx",
+            "Screenshot": "xxxxxxxxxx",
+            "Online": "xxxxxxxxxx",
+            "Switch": "xxxxxxxxxx"
+        },
+        {
+            "lat": -1.6858747364737896,
+            "lon": 37.18456195494777,
+            "alt": "0",
+            "Current": "xxxxxxxxxx",
+            "Screenshot": "xxxxxxxxxx",
+            "Online": "xxxxxxxxxx",
+            "Switch": "xxxxxxxxxx"
+        },
+        {
+            "lat": -1.6858837544078535,
+            "lon": 37.185049134243755,
+            "alt": "0",
+            "Current": "xxxxxxxxxx",
+            "Screenshot": "xxxxxxxxxx",
+            "Online": "xxxxxxxxxx",
+            "Switch": "xxxxxxxxxx"
+        },
+        {
+            "lat": -1.6858521916384772,
+            "lon": 37.18587012157589,
+            "alt": "0",
+            "Current": "xxxxxxxxxx",
+            "Screenshot": "xxxxxxxxxx",
+            "Online": "xxxxxxxxxx",
+            "Switch": "xxxxxxxxxx"
+        }
+    ]
+}

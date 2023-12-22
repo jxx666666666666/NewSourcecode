@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "name": "Bruce Lee",
+      "Position": "XXXXXXXX",
+      "ContactInformation": "12032021000",
+      "Unit": "XXXXXXXX"
+    },
+    {
+      "name": "JACK",
+      "ContactInformation": "1880253254"
+    },
+    {
+      "name": "SIMON",
+      "ContactInformation": "1880253254"
+    },
+    {
+      "name": "LAW",
+      "ContactInformation": "1880253254"
+    },
+    {
+      "name": "KRISTY",
+      "ContactInformation": "1880253254"
+    }
+  ]
+}

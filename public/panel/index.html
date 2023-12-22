@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <script src="./js/axios.js"></script> -->
+</head>
+
+<body>
+
+</body>
+<script>
+  let href = window.document.location.href;
+  let data = href.split("?");
+  let result = JSON.parse(decodeURI(data[1]));
+  let panelList = {
+    '告警点位': 'panels/heimingdan',
+  }
+  let url = data[0].replace('index', panelList[result.scatterType]) + '?' + data[1]
+  document.location.href = url;
+  // http://172.16.1.236:3066/panel/index.html?{"locationId":5,"longitude":"113.8829302938","latitude":"22.8791214661","altitude":"0","alarmIncidentCategory":"THROUGH","alarmIncidentType":"RETROGRADE","alarmName":"闸机逆行","alarmNo":"XXXXX","alarmTime":"2021-8-16 13:48:10","alarmLevel":"SERIOUS","alarmStatus":"CLOSE","alarmIncidentDescription":"闸机逆行","alarmIncidentImageUrl":"XXXXX","realTimeVideoUrl":"XXXXX","historyVideoUrl":"XXXXX","equipmentId":"XXXXX","equipmentName":"闸机1号","equipmentIp":"XXXXX","executePerson":"XXXXX","executeContent":"XXXXX","executeAction":"XXXXX","taskAssignTime":"2021-8-16 13:48:10","processPerson":"XXXXX","processOpinion":"XXXXX","alarmRemark":"XXXXX","scatterType":"告警点位","coord":["113.8829302938","22.8791214661"],"id":"散点-告警点位4"}
+
+
+</script>
+
+</html>

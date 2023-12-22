@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "name": "Rescue Teams",
+      "value": 16
+    },
+    {
+      "name": "Shelters",
+      "value": 102
+    },
+    {
+      "name": "Emergency Supplies",
+      "value": 2053
+    },
+    {
+      "name": "ExpertTeams",
+      "value": 9
+    }
+  ]
+}

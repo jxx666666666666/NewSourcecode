@@ -1,0 +1,11 @@
+{
+  "data": [
+    { "legend": "Type 1", "measure": 42, "dimension": "Type 01" },
+    { "legend": "Type 1", "measure": 31, "dimension": "Type 02" },
+    { "legend": "Type 1", "measure": 27, "dimension": "Type 03" },
+    { "legend": "Type 1", "measure": 44, "dimension": "Type 04" },
+    { "legend": "Type 1", "measure": 32, "dimension": "Type 05" },
+    { "legend": "Type 1", "measure": 32, "dimension": "Type 06" },
+    { "legend": "Type 1", "measure": 32, "dimension": "Type 07" }
+  ]
+}

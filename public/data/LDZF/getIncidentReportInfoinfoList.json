@@ -1,0 +1,64 @@
+{
+  "alarm": {
+    "time": "February 23, 2021",
+    "txt": "A fire broke out in an office building"
+  },
+  "infolist": [
+    {
+      "name": "Area",
+      "value": "XXXXXXXX"
+    },
+    {
+      "name": "Time Type",
+      "value": "XXXXXXXX"
+    },
+    {
+      "name": "The Cause Of The Incident",
+      "value": "XXXXXXXX"
+    }
+  ],
+  "EventDetails": {
+    "time": "2021-02-23 10:46:20",
+    "txt": "Received a report from Xu Xiaoming (131-3451-1234) from the District Fire Brigade,2020 On the morning of February 23, in the south of Longgang District"
+  },
+  "itemList": [
+    {
+      "name": "Consequences Have Been Caused",
+      "value": "Partial Facility Incineration"
+    },
+    {
+      "name": "Event Development Trend",
+      "value": "Controlled"
+    },
+    {
+      "name": "Measures Have Been Taken",
+      "value": "Firefighters Rushed To The Scene"
+    }
+  ],
+  "CurrentEventData": [
+    {
+      "name": "Death Toll",
+      "value": "0"
+    },
+    {
+      "name": "Number Of Trapped Individuals",
+      "value": "0"
+    },
+    {
+      "name": "The Injured",
+      "value": "30"
+    },
+    {
+      "name": "Number Of People Affected By...",
+      "value": "2"
+    },
+    {
+      "name": "Missing Persons",
+      "value": "0"
+    },
+    {
+      "name": "Economic Losses",
+      "value": "$M2.4"
+    }
+  ]
+}

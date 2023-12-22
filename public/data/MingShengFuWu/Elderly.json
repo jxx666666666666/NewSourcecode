@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "name": "Number Of Nursing Homes",
+      "value": 12
+    },
+    {
+      "name": "Number Of Beds In Nursing Homes",
+      "value": 1023
+    },
+    {
+      "name": "Number Of Elderly Helpers",
+      "value": 660
+    },
+    {
+      "name": "Number Of Elderly People",
+      "value": 68510
+    }
+  ]
+}

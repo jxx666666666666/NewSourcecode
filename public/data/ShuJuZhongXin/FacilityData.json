@@ -1,0 +1,6 @@
+[
+  { "legend": "Server", "measure": 46, "rate": "19%" },
+  { "legend": "Network", "measure": 506, "rate": "43%" },
+  { "legend": "Storage", "measure": 7, "rate": "8%" },
+  { "legend": "Others", "measure": 152, "rate": "25%" }
+]

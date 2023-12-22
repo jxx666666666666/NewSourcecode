@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "name": "Congestion Mileage",
+      "value": 34,
+      "unit": "km"
+    },
+    {
+      "name": "Traffic Congestion Index",
+      "value": 5.8
+    },
+    {
+      "name": "Total Number Of Congested Roads",
+      "value": 9
+    }
+  ]
+}

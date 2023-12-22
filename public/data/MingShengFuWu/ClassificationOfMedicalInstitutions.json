@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "dimension": "Fault Level 01",
+      "measure": 42,
+      "val": 90
+    },
+    {
+      "dimension": "Fault Level 02",
+      "measure": 35,
+      "val": 80
+    },
+    {
+      "dimension": "Fault Level 03",
+      "measure": 29,
+      "val": 70
+    },
+    {
+      "dimension": "Fault Level 04",
+      "measure": 17,
+      "val": 60
+    },
+    {
+      "dimension": "Fault Level 05",
+      "measure": 17,
+      "val": 50
+    }
+  ]
+}

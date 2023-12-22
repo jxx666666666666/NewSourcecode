@@ -1,0 +1,20 @@
+{
+  "Day": [
+    { "legend": "Critical", "measure": 12, "rate": "45%" },
+    { "legend": "Major", "measure": 39, "rate": "32%" },
+    { "legend": "Minor", "measure": 3, "rate": "19%" },
+    { "legend": "Warning", "measure": 4, "rate": "17%" }
+  ],
+  "Week": [
+    { "legend": "Critical", "measure": 13, "rate": "45%" },
+    { "legend": "Major", "measure": 39, "rate": "32%" },
+    { "legend": "Minor", "measure": 4, "rate": "19%" },
+    { "legend": "Warning", "measure": 5, "rate": "17%" }
+  ],
+  "Month": [
+    { "legend": "Critical", "measure": 15, "rate": "45%" },
+    { "legend": "Major", "measure": 39, "rate": "32%" },
+    { "legend": "Minor", "measure": 8, "rate": "19%" },
+    { "legend": "Warning", "measure": 9, "rate": "17%" }
+  ]
+}

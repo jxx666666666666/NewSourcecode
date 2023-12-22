@@ -1,0 +1,46 @@
+{
+  "This Year": [
+    {
+      "name": "City GDP",
+      "value": 1569,
+      "unit": "$ M"
+    },
+    {
+      "name": "Per Capita Income Of Residents",
+      "value": 3,
+      "unit": "$ T"
+    },
+    {
+      "name": "Fixed Asset Investment",
+      "value": 267,
+      "unit": "$ M"
+    },
+    {
+      "name": "City-wide Tax Revenue",
+      "value": 607,
+      "unit": "$ M"
+    }
+  ],
+  "Last 5 Years": [
+    {
+      "name": "City GDP",
+      "value": 1569,
+      "unit": "$ M"
+    },
+    {
+      "name": "Per Capita Income Of Residents",
+      "value": 6,
+      "unit": "$ T"
+    },
+    {
+      "name": "Fixed Asset Investment",
+      "value": 267,
+      "unit": "$ M"
+    },
+    {
+      "name": "City-wide Tax Revenue",
+      "value": 607,
+      "unit": "$ M"
+    }
+  ]
+}

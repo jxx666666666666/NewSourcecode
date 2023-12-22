@@ -1,0 +1,50 @@
+{
+  "ybpData": {
+    "name": "IT Load Rate",
+    "value": 18
+  },
+  "kwData": [
+    {
+      "name": "IT Used(KW)",
+      "value": "87.20"
+    },
+    {
+      "name": "IT Total(KW)",
+      "value": "920.00"
+    }
+  ],
+  "textList": [
+    {
+      "name": "Low Load(<60%)"
+    },
+    {
+      "name": "Medium Load(>=60%)"
+    },
+    {
+      "name": "High Load(>=80%)"
+    },
+    {
+      "name": "Over Load(>100%)"
+    }
+  ],
+  "chartData": [
+    {
+      "name": "IT Used",
+      "value": 169,
+      "item": 676,
+      "val": 20
+    },
+    {
+      "name": "XXXXX",
+      "value": 238,
+      "item": 557,
+      "val": 45
+    },
+    {
+      "name": "Ground Floor",
+      "value": 50,
+      "item": 487,
+      "val": 30
+    }
+  ]
+}
